@@ -180,7 +180,7 @@ button:hover {
 /* Plans ***********************************************/
 
 .plans {
-    background-image: url(/assets/bkgrimage.jpg);
+    background-image: url(./assets/bkgrimage.jpg);
     width: 100%;
     max-height: 100%;
     background-repeat: no-repeat;
@@ -260,7 +260,7 @@ button:hover {
 /* Trainer section *******************************/
 
 .trainersection {
-    background-image: url(/assets/ed-leszczynskl-Ar6eXpQaCwk-unsplash.jpg);
+    background-image: url(./assets/ed-leszczynskl-Ar6eXpQaCwk-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -330,7 +330,7 @@ button:hover {
 .contact-section {
     width: 100%;
     height: 100%;
-    background-image: url(/assets/sven-mieke-optBC2FxCfc-unsplash.jpg);
+    background-image: url(./assets/sven-mieke-optBC2FxCfc-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
