@@ -479,7 +479,7 @@ i {
 
     .form-header {
         width: 90%;
-        height: 750px;
+        height: 725px;
         font-size: 2rem;
     }
 
@@ -490,6 +490,11 @@ i {
     .form textarea,
     input {
         width: 280px;
+    }
+
+    .form-header .button {
+        width: 200px;
+        font-size: 0.8rem;
     }
 
     /* footer  *********************************************/
@@ -545,7 +550,7 @@ i {
     }
 
     .form-header {
-        width: 90vw;
+        width: 100vw;
         height: 720px;
         margin-bottom: 5rem;
         font-size: 0.5rem;
@@ -556,17 +561,25 @@ i {
     }
 
     .form input {
-        width: 250px;
+        width: 275px;
+    }
+
+    .form input::placeholder {
+        font-size: 20px;
     }
 
     .form textarea {
-        width: 250px;
+        width: 275px;
         height: 150px;
     }
 
+    .form textarea::placeholder {
+        font-size: 20px;
+    }
+
     .form-header .button {
-        width: 100%;
-        font-size: 1rem;
+        width: 200px;
+        font-size: 0.8rem;
     }
 
     .footer-content h5 {
