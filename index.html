@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="./assets/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Sweat Zone</title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down">
         <div class="brand-title">sweat<span> zone</span></div>
         <a href="#" class="toggle-button">
             <span class="menu-bar"></span>
@@ -31,7 +32,7 @@
     <!-- Main Section -->
 
     <div class="mainsection">
-        <div class="maincontent">
+        <div class="maincontent" data-aos="fade-right">
             <h1>Build your best body</h1>
             <h2>SUMMER OFFER:<br>GET<span> ONE MONTH</span> FOR JUST<br><span>$29.99</span></h2>
             <button class="button" type="button">start here</button>
@@ -48,8 +49,9 @@
     <!-- Plans -->
 
     <div class="plans">
-        <h2 class="plans-h2">What we do</h2>
-        <p class="whatwedo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rem nisi repudiandae. Quis
+        <h2 class="plans-h2" data-aos="fade-right">What we do</h2>
+        <p class="whatwedo" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rem nisi
+            repudiandae. Quis
             natus perferendis
             corporis vel corrupti necessitatibus vitae, asperiores fugiat quod nulla ex doloremque eius temporibus aut
             molestias?
@@ -57,7 +59,7 @@
             tempora, recusandae sit nemo numquam beatae adipisci minus! Expedita quae, earum distinctio quidem
             doloremque nostrum dolores quam?</p>
 
-        <div class="container">
+        <div class="container" data-aos="fade-up-left">
             <!-- card 1 -->
             <div class="cards">
                 <div class="cardcontent">
@@ -105,10 +107,10 @@
 
     <!-- Meet the trainers -->
     <div class="trainersection">
-        <h2 class="plans-h2">Meet the <span>trainer</span></h2>
+        <h2 class="plans-h2" data-aos="fade-right">Meet the <span>trainer</span></h2>
 
         <!-- first trainer -->
-        <div class="trainer-wrapper">
+        <div class="trainer-wrapper" data-aos="fade-right">
             <div class="trainer-card">
                 <div class="trainercontent">
                     <h2 class="plans-h2"> hi, i am graham</h2>
@@ -143,10 +145,10 @@
     <!-- Contact Section -->
     <div class="contact-section">
         <div class="contact-header">
-            <h2 class="plans-h2">Stay Connected with Us</h2>
+            <h2 class="plans-h2" data-aos="fade-right">Stay Connected with Us</h2>
         </div>
 
-        <section class="contact">
+        <section class="contact" data-aos="fade-up-left">
             <div class="form-header">
                 <div class="questions">
                     <p>Have a question about memberships, nutrition or exercise?</p>
@@ -177,6 +179,8 @@
         </div>
     </div>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ offset: 400, duration: 800 });</script>
 </body>
 
 </html>
